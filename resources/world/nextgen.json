@@ -1,0 +1,779 @@
+{
+    "description": "A normal sized world with normal and weird shapes.",
+    "world_xz": 9,
+    "world_y": 21,
+    "shapes": [
+        {
+            "name": ">:-D",
+			"lifts": 0,
+            "rotatable": 0,
+			"highdice": 0,
+            "color": "#FF0000; Red",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "8o)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#00FF00; Green",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ":-D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#0000FF; Blue",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "#:-D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#FFFF00; Yellow",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "|:-)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#FF00FF; Magenta",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ":D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 4,
+            "color": "#00FFFF; Cyan",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ">:)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 8,
+            "color": "#006400; DarkGreen",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ">:O",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 10,
+            "color": "#800000; Maroon",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 0, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ";-/",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 10,
+            "color": "#008080; Teal",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "=-D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#808000; Olive",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "(-:] - [:-D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 14,
+            "color": "#FFD700; Gold",
+            "cubed": 3,
+            "blocks": [
+                1, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                1, 0, 0,
+                0, 0, 0,
+                0, 0, 1,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 1
+            ]
+        },
+        {
+            "name": ")-:] - [:-)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 16,
+            "color": "#FF0000; Red",
+            "cubed": 3,
+            "blocks": [
+                1, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 1
+            ]
+        },
+        {
+            "name": ">:D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 18,
+            "color": "#00FF00; Green",
+            "cubed": 3,
+            "blocks": [
+                0, 1, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ">:-|",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 10,
+            "color": "#0000FF; Blue",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                1, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "|8o",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 12,
+            "color": "#FFFF00; Yellow",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "|8)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 2,
+            "color": "#00FFFF; Cyan",
+            "cubed": 2,
+            "blocks": [
+                1, 1,
+                1, 1,
+                
+                1, 1,
+                1, 1
+            ]
+        },
+        {
+            "name": "|8>",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 15,
+            "color": "#FF00FF; Magenta",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 0, 1,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ":) - (:",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 18,
+            "color": "#800080; Purple",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                1, 0, 1,
+                0, 0, 0,
+                1, 0, 1,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "=)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 14,
+            "color": "#006400; DarkGreen",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "8-D",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 10,
+            "color": "#800000; Maroon",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 1, 0,
+                
+                0, 1, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "):-|",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 12,
+            "color": "#008080; Teal",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ":-P",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 18,
+            "color": "#808000; Olive",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": ">8-)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 17,
+            "color": "#FFD700; Gold",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 1, 0
+            ]
+        },
+        {
+            "name": "(;-)",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 14,
+            "color": "#FF0000; Red",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 1,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "rocket",
+			"lifts": 2,
+            "rotatable": 1,
+			"highdice": 10,
+            "color": "#00FF00; Green",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0
+            ]
+        },
+        {
+            "name": "screw",
+			"lifts": 1,
+            "rotatable": 1,
+			"highdice": 12,
+            "color": "#0000FF; Blue",
+            "cubed": 3,
+            "blocks": [
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        
+        {
+            "name": "starhole",
+			"lifts": 10,
+            "rotatable": 1,
+			"highdice": 28,
+            "color": "#FFFF00; Yellow",
+            "cubed": 3,
+            "blocks": [
+                1, 1, 1,
+                1, 0, 1,
+                1, 1, 1,
+                
+                1, 0, 1,
+                0, 0, 0,
+                1, 0, 1,
+                
+                1, 1, 1,
+                1, 0, 1,
+                1, 1, 1
+            ]
+        },
+        {
+            "name": "star",
+			"lifts": 3,
+            "rotatable": 0,
+			"highdice": 8,
+            "color": "#00FFFF; Cyan",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "cube",
+			"lifts": 0,
+            "rotatable": 0,
+			"highdice": 2,
+            "color": "#FF00FF; Magenta",
+            "cubed": 3,
+            "blocks": [
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1,
+                
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1,
+                
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1
+            ]
+        },
+        {
+            "name": "bigz",
+			"lifts": 4,
+            "rotatable": 1,
+			"highdice": 8,
+            "color": "#800080; Purple",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "H",
+			"lifts": 3,
+            "rotatable": 1,
+			"highdice": 10,
+            "color": "#006400; DarkGreen",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                1, 0, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 0, 1,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "bone",
+			"lifts": 8,
+            "rotatable": 1,
+			"highdice": 14,
+            "color": "#800000; Maroon",
+            "cubed": 3,
+            "blocks": [
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0
+            ]
+        },
+        {
+            "name": "teafighter",
+			"lifts": 10,
+            "rotatable": 1,
+			"highdice": 16,
+            "color": "#008080; Teal",
+            "cubed": 3,
+            "blocks": [
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1
+            ]
+        },
+        {
+            "name": "flat",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 4,
+            "color": "#808000; Olive",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                1, 1, 1,
+                1, 1, 1,
+                1, 1, 1,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "thingy",
+			"lifts": 16,
+            "rotatable": 1,
+			"highdice": 18,
+            "color": "#FFD700; Gold",
+            "cubed": 3,
+            "blocks": [
+                0, 1, 1,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                1, 1, 0
+            ]
+        },
+        {
+            "name": "cluster",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 14,
+            "color": "#FF0000; Red",
+            "cubed": 3,
+            "blocks": [
+                1, 0, 1,
+                0, 0, 0,
+                1, 0, 1,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                1, 0, 1,
+                0, 0, 0,
+                1, 0, 1
+            ]
+        },
+        {
+            "name": "uia",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 22,
+            "color": "#00FF00; Green",
+            "cubed": 3,
+            "blocks": [
+                1, 0, 1,
+                1, 0, 1,
+                1, 1, 1,
+                
+                0, 1, 0,
+                0, 1, 0,
+                0, 1, 0,
+                
+                1, 1, 1,
+                1, 0, 1,
+                1, 0, 1
+            ]
+        }
+	]
+}

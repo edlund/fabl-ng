@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8D6FFA1-4836-423F-B9F3-B950AD8F31FF}</ProjectGuid>
+    <RootNamespace>fablng</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Sources\fabl-ng\vendor\sources\sqlitecpp-1.1\include;C:\Users\Erik\Sources\fabl-ng\vendor\sources\sqlite-3.8;C:\Users\Erik\Sources\fabl-ng\vendor\builds\sdl-2\include;C:\Users\Erik\Sources\fabl-ng\vendor\builds\gl-N\include;C:\Users\Erik\Sources\fabl-ng\vendor\builds\freetype-2\include;C:\Users\Erik\Sources\fabl-ng\vendor\builds\catch-1;C:\Users\Erik\Sources\fabl-ng\vendor\builds\boost-1.58\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Erik\Sources\fabl-ng\vendor\builds\sdl-2\lib-windows-x86-32;C:\Users\Erik\Sources\fabl-ng\vendor\builds\gl-N\lib-windows-x86-32;C:\Users\Erik\Sources\fabl-ng\vendor\builds\freetype-2\lib-windows-x86-32;C:\Users\Erik\Sources\fabl-ng\vendor\builds\boost-1.58\lib-windows-x86-32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;SDL2.lib
+;SDL2main.lib
+;SDL2_mixer.lib;opengl32.lib
+;glu32.lib
+;glew32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Sources\fabl-ng\vendor\sources\sqlitecpp-1.1\include;C:\Users\Erik\Sources\fabl-ng\vendor\sources\sqlite-3.8;C:\Users\Erik\Sources\fabl-ng\vendor\builds\sdl-2\include;C:\Users\Erik\Sources\fabl-ng\vendor\builds\gl-N\include;C:\Users\Erik\Sources\fabl-ng\vendor\builds\freetype-2\include;C:\Users\Erik\Sources\fabl-ng\vendor\builds\catch-1;C:\Users\Erik\Sources\fabl-ng\vendor\builds\boost-1.58\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\Erik\Sources\fabl-ng\vendor\builds\sdl-2\lib-windows-x86-32;C:\Users\Erik\Sources\fabl-ng\vendor\builds\gl-N\lib-windows-x86-32;C:\Users\Erik\Sources\fabl-ng\vendor\builds\freetype-2\lib-windows-x86-32;C:\Users\Erik\Sources\fabl-ng\vendor\builds\boost-1.58\lib-windows-x86-32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;SDL2.lib
+;SDL2main.lib
+;SDL2_mixer.lib;opengl32.lib
+;glu32.lib
+;glew32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vendor\sources\sqlite-3.8\sqlite3.h" />
+    <ClInclude Include="..\vendor\sources\sqlite-3.8\sqlite3ext.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\Assertion.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\Column.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\Database.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\Exception.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\SQLiteCpp.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\Statement.h" />
+    <ClInclude Include="..\vendor\sources\sqlitecpp-1.1\include\SQLiteCpp\Transaction.h" />
+    <ClInclude Include="fabl.h" />
+    <ClInclude Include="pup.h" />
+    <ClInclude Include="pup_app.h" />
+    <ClInclude Include="pup_core.h" />
+    <ClInclude Include="pup_env.h" />
+    <ClInclude Include="pup_gl1.h" />
+    <ClInclude Include="pup_io.h" />
+    <ClInclude Include="pup_m.h" />
+    <ClInclude Include="pup_snd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\sources\sqlite-3.8\sqlite3.c" />
+    <ClCompile Include="..\vendor\sources\sqlitecpp-1.1\src\Column.cpp" />
+    <ClCompile Include="..\vendor\sources\sqlitecpp-1.1\src\Database.cpp" />
+    <ClCompile Include="..\vendor\sources\sqlitecpp-1.1\src\Statement.cpp" />
+    <ClCompile Include="..\vendor\sources\sqlitecpp-1.1\src\Transaction.cpp" />
+    <ClCompile Include="fabl.cpp" />
+    <ClCompile Include="fabl_menus.cpp" />
+    <ClCompile Include="fabl_ng.cpp" />
+    <ClCompile Include="fabl_options.cpp" />
+    <ClCompile Include="fabl_test.cpp" />
+    <ClCompile Include="fabl_ui.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pup.cpp" />
+    <ClCompile Include="pup_app.cpp" />
+    <ClCompile Include="pup_gl1.cpp" />
+    <ClCompile Include="pup_io.cpp" />
+    <ClCompile Include="pup_m.cpp" />
+    <ClCompile Include="pup_snd.cpp" />
+    <ClCompile Include="pup_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+    <None Include="..\resources\config.ini-orig" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

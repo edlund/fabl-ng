@@ -1,0 +1,28 @@
+{
+    "description": "Test shape for blockfall.",
+    "world_xz": 9,
+    "world_y": 21,
+    "shapes": [
+        {
+            "name": "3_L",
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#FF0000; Red",
+            "comment": "There is only L, a J is just a rotated L.",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0
+            ]
+        }
+	]
+}

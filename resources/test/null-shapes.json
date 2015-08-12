@@ -1,0 +1,7 @@
+{
+    "description": "Empty test world for blockfall.",
+    "world_xz": 9,
+    "world_y": 5,
+    "shapes": [
+	]
+}

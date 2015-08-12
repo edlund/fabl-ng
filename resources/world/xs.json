@@ -1,0 +1,175 @@
+{
+    "description": "Few shapes in an extra small world; many lines cleared.",
+    "world_xz": 4,
+    "world_y": 9,
+    "shapes": [
+        {
+            "name": "L",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#FF0000; Red",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "Z",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#00FF00; Green",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "voxel",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#0000FF; Blue",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "T",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#FFFF00; Yellow",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                1, 1, 1,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "I",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#FF00FF; Magenta",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "comma",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#00FFFF; Cyan",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 0,
+                0, 0, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "plus",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#800080; Purple",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 0, 0,
+                0, 0, 0
+            ]
+        },
+        {
+            "name": "star",
+			"lifts": 0,
+            "rotatable": 1,
+			"highdice": 0,
+            "color": "#800000; Maroon",
+            "cubed": 3,
+            "blocks": [
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0,
+                
+                0, 1, 0,
+                1, 1, 1,
+                0, 1, 0,
+                
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+            ]
+        }
+	]
+}
