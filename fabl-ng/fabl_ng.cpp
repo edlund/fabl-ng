@@ -192,9 +192,9 @@ clear_color_power::clear_color_power(blockfall& bfall, pup::timer& tmr) :
 	power(bfall, tmr, 1000 * 120),
 	y_(0)
 {
-	blocks_ = new ng::block[layer_area_];
+	blocks_ = new block[layer_area_];
 	for (::Uint32 i = 0; i < layer_area_; ++i) {
-		blocks_[i].set_state(ng::ST_FILLED);
+		blocks_[i].set_state(ST_FILLED);
 	}
 }
 
@@ -224,7 +224,7 @@ void clear_color_power::update()
 				x = 0, x < blockfall_.get_xz(), ++x,
 				z = 0, z < blockfall_.get_xz(), ++z,
 				{
-					ng::block& blk = blockfall_.get_world_block(
+					block& blk = blockfall_.get_world_block(
 						x,
 						y_,
 						z
@@ -265,9 +265,9 @@ bool clear_color_power::activate()
 vaporize_foundation_power::vaporize_foundation_power(blockfall& bfall, pup::timer& tmr) :
 	power(bfall, tmr, 1000 * 180)
 {
-	blocks_ = new ng::block[layer_area_];
+	blocks_ = new block[layer_area_];
 	for (::Uint32 i = 0; i < layer_area_; ++i) {
-		blocks_[i].set_state(ng::ST_FILLED);
+		blocks_[i].set_state(ST_FILLED);
 		blocks_[i].set_color(pup::gl1::color::white);
 	}
 }
@@ -359,9 +359,9 @@ gravity_beam_power::gravity_beam_power(blockfall& bfall, pup::timer& tmr) :
 	x_(0),
 	z_(0)
 {
-	blocks_ = new ng::block[1 * bfall.get_y() * 1];
+	blocks_ = new block[1 * bfall.get_y() * 1];
 	for (::Uint32 i = 0; i < bfall.get_y(); ++i) {
-		blocks_[i].set_state(ng::ST_FILLED);
+		blocks_[i].set_state(ST_FILLED);
 		blocks_[i].set_color(pup::gl1::color::white);
 	}
 }
@@ -445,7 +445,7 @@ factory::factory(
 
 	if (verbose) {
 		BOOST_LOG_TRIVIAL(info) << boost::format(
-			"fabl::ng::factory()\n"
+			"fabl::factory()\n"
 			"\tworld_file: %1%\n"
 			"\tworld_description: %2%\n"
 			"\tworld_xz: %3%\n"
